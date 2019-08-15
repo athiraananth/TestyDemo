@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>F:\Athira\EclipseProjects\TestyDemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.BootstrapFormTest" class="method navigator-link" hash-for-method="bFormPOAPFTest">bFormPOAPFTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.BootstrapFormTest" class="method navigator-link" hash-for-method="bFormPOAPFTest">bFormPOAPFTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.BootstrapFormTest" class="method navigator-link" hash-for-method="bFormTitleTest">bFormTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.BootstrapFormTest" class="method navigator-link" hash-for-method="bFormTitleTest">bFormTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="comboBoxTest">comboBoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="comboBoxTest">comboBoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="conditionManagerTest">conditionManagerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="conditionManagerTest">conditionManagerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="findElementsAfterTimeoutTest">findElementsAfterTimeoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="findElementsAfterTimeoutTest">findElementsAfterTimeoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="findElementsQuotesTest">findElementsQuotesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="findElementsQuotesTest">findElementsQuotesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="multiSelectTest">multiSelectTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="multiSelectTest">multiSelectTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.BootstrapFormTest" class="method navigator-link" hash-for-method="openUrl">openUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="openUrl">openUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.BootstrapFormTest" class="method navigator-link" hash-for-method="openUrl">openUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="openUrl">openUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="radioGroupTest">radioGroupTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="radioGroupTest">radioGroupTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="simpleFormTest">simpleFormTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="simpleFormTest">simpleFormTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="textAreaTest">textAreaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="textAreaTest">textAreaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="textFieldTest">textFieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="myTestyDemoTest.ExtJsFormTest" class="method navigator-link" hash-for-method="textFieldTest">textFieldTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">myTestyDemoTest.ExtJsFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="comboBoxTest">
+                  </a> <!-- comboBoxTest -->
+                  <span class="method-name">comboBoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="comboBoxTest">
+                  </a> <!-- comboBoxTest -->
+                  <span class="method-name">comboBoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="conditionManagerTest">
+                  </a> <!-- conditionManagerTest -->
+                  <span class="method-name">conditionManagerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="conditionManagerTest">
+                  </a> <!-- conditionManagerTest -->
+                  <span class="method-name">conditionManagerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findElementsAfterTimeoutTest">
+                  </a> <!-- findElementsAfterTimeoutTest -->
+                  <span class="method-name">findElementsAfterTimeoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findElementsAfterTimeoutTest">
+                  </a> <!-- findElementsAfterTimeoutTest -->
+                  <span class="method-name">findElementsAfterTimeoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findElementsQuotesTest">
+                  </a> <!-- findElementsQuotesTest -->
+                  <span class="method-name">findElementsQuotesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findElementsQuotesTest">
+                  </a> <!-- findElementsQuotesTest -->
+                  <span class="method-name">findElementsQuotesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiSelectTest">
+                  </a> <!-- multiSelectTest -->
+                  <span class="method-name">multiSelectTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiSelectTest">
+                  </a> <!-- multiSelectTest -->
+                  <span class="method-name">multiSelectTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openUrl">
+                  </a> <!-- openUrl -->
+                  <span class="method-name">openUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openUrl">
+                  </a> <!-- openUrl -->
+                  <span class="method-name">openUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="radioGroupTest">
+                  </a> <!-- radioGroupTest -->
+                  <span class="method-name">radioGroupTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="radioGroupTest">
+                  </a> <!-- radioGroupTest -->
+                  <span class="method-name">radioGroupTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="simpleFormTest">
+                  </a> <!-- simpleFormTest -->
+                  <span class="method-name">simpleFormTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="simpleFormTest">
+                  </a> <!-- simpleFormTest -->
+                  <span class="method-name">simpleFormTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaTest">
+                  </a> <!-- textAreaTest -->
+                  <span class="method-name">textAreaTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textAreaTest">
+                  </a> <!-- textAreaTest -->
+                  <span class="method-name">textAreaTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textFieldTest">
+                  </a> <!-- textFieldTest -->
+                  <span class="method-name">textFieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textFieldTest">
+                  </a> <!-- textFieldTest -->
+                  <span class="method-name">textFieldTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">myTestyDemoTest.BootstrapFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bFormPOAPFTest">
+                  </a> <!-- bFormPOAPFTest -->
+                  <span class="method-name">bFormPOAPFTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bFormPOAPFTest">
+                  </a> <!-- bFormPOAPFTest -->
+                  <span class="method-name">bFormPOAPFTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bFormTitleTest">
+                  </a> <!-- bFormTitleTest -->
+                  <span class="method-name">bFormTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bFormTitleTest">
+                  </a> <!-- bFormTitleTest -->
+                  <span class="method-name">bFormTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openUrl">
+                  </a> <!-- openUrl -->
+                  <span class="method-name">openUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openUrl">
+                  </a> <!-- openUrl -->
+                  <span class="method-name">openUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Athira\EclipseProjects\TestyDemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test name=&quot;chrometesting&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;myTestyDemoTest.ExtJsFormTest&quot;/&gt;
+      &lt;class name=&quot;myTestyDemoTest.BootstrapFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chrometesting --&gt;
+  &lt;test name=&quot;FirefoxTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;myTestyDemoTest.ExtJsFormTest&quot;/&gt;
+      &lt;class name=&quot;myTestyDemoTest.BootstrapFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FirefoxTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">chrometesting (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">FirefoxTest (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'bFormTitleTest')
+data.setCell(0, 2, 'myTestyDemoTest.BootstrapFormTest')
+data.setCell(0, 3, 18246);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'conditionManagerTest')
+data.setCell(1, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(1, 3, 17872);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'simpleFormTest')
+data.setCell(2, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(2, 3, 14007);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'bFormTitleTest')
+data.setCell(3, 2, 'myTestyDemoTest.BootstrapFormTest')
+data.setCell(3, 3, 13527);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'radioGroupTest')
+data.setCell(4, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(4, 3, 10707);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'conditionManagerTest')
+data.setCell(5, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(5, 3, 10671);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'radioGroupTest')
+data.setCell(6, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(6, 3, 10114);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'findElementsAfterTimeoutTest')
+data.setCell(7, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(7, 3, 5903);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'findElementsAfterTimeoutTest')
+data.setCell(8, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(8, 3, 5848);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'simpleFormTest')
+data.setCell(9, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(9, 3, 5155);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'comboBoxTest')
+data.setCell(10, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(10, 3, 2747);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'comboBoxTest')
+data.setCell(11, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(11, 3, 2122);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'findElementsQuotesTest')
+data.setCell(12, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(12, 3, 2056);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'multiSelectTest')
+data.setCell(13, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(13, 3, 1643);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'findElementsQuotesTest')
+data.setCell(14, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(14, 3, 1567);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'textFieldTest')
+data.setCell(15, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(15, 3, 1388);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'textFieldTest')
+data.setCell(16, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(16, 3, 1377);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'textAreaTest')
+data.setCell(17, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(17, 3, 1245);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'textAreaTest')
+data.setCell(18, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(18, 3, 1167);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'openUrl')
+data.setCell(19, 2, 'myTestyDemoTest.BootstrapFormTest')
+data.setCell(19, 3, 1148);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'openUrl')
+data.setCell(20, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(20, 3, 1142);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'multiSelectTest')
+data.setCell(21, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(21, 3, 1014);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'bFormPOAPFTest')
+data.setCell(22, 2, 'myTestyDemoTest.BootstrapFormTest')
+data.setCell(22, 3, 715);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'openUrl')
+data.setCell(23, 2, 'myTestyDemoTest.ExtJsFormTest')
+data.setCell(23, 3, 689);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'bFormPOAPFTest')
+data.setCell(24, 2, 'myTestyDemoTest.BootstrapFormTest')
+data.setCell(24, 3, 508);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'openUrl')
+data.setCell(25, 2, 'myTestyDemoTest.BootstrapFormTest')
+data.setCell(25, 3, 423);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">myTestyDemoTest.BootstrapFormTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initWebDriver</span>
+                <br/>
+                <span class="ignored-method-name">initWebDriver</span>
+                <br/>
+                <span class="ignored-method-name">tearDownTestMethod</span>
+                <br/>
+                <span class="ignored-method-name">tearDownTestMethod</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">myTestyDemoTest.ExtJsFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initWebDriver(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">4936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">conditionManagerTest</span>
+                <span class="method-start">6079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findElementsAfterTimeoutTest</span>
+                <span class="method-start">23951 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findElementsQuotesTest</span>
+                <span class="method-start">29854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">radioGroupTest</span>
+                <span class="method-start">31421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">comboBoxTest</span>
+                <span class="method-start">41535 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiSelectTest</span>
+                <span class="method-start">43657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaTest</span>
+                <span class="method-start">44671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textFieldTest</span>
+                <span class="method-start">45838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">simpleFormTest</span>
+                <span class="method-start">47226 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">myTestyDemoTest.BootstrapFormTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">61236 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bFormTitleTest</span>
+                <span class="method-start">62384 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bFormPOAPFTest</span>
+                <span class="method-start">80631 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">myTestyDemoTest.ExtJsFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTestMethod</span>
+                <span class="method-start">81139 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">initWebDriver(Firefox)</span>
+                <span class="method-start">81454 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">88204 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">conditionManagerTest</span>
+                <span class="method-start">88894 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findElementsAfterTimeoutTest</span>
+                <span class="method-start">99565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">findElementsQuotesTest</span>
+                <span class="method-start">105413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">radioGroupTest</span>
+                <span class="method-start">107469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">comboBoxTest</span>
+                <span class="method-start">118176 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiSelectTest</span>
+                <span class="method-start">120923 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textAreaTest</span>
+                <span class="method-start">122566 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textFieldTest</span>
+                <span class="method-start">123811 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">simpleFormTest</span>
+                <span class="method-start">125188 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">myTestyDemoTest.BootstrapFormTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">130343 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bFormTitleTest</span>
+                <span class="method-start">130767 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bFormPOAPFTest</span>
+                <span class="method-start">144295 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">myTestyDemoTest.ExtJsFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTestMethod</span>
+                <span class="method-start">145010 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

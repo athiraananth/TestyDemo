@@ -1,0 +1,1 @@
+C:\PROGRA~1\Java\JRE18~1.0_1\bin\javadoc.exe -Xdoclint:none @options @packages

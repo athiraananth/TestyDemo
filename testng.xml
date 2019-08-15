@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<test name="chrometesting">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="myTestyDemoTest.ExtJsFormTest" />
+			<class name="myTestyDemoTest.BootstrapFormTest"/>
+		</classes>
+	</test> <!-- Test -->
+	<test name="FirefoxTest">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="myTestyDemoTest.ExtJsFormTest" />
+			<class name="myTestyDemoTest.BootstrapFormTest"/>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
