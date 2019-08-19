@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="26" passed="26" failed="0" skipped="0">
+<testng-results total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-15T01:56:14Z" name="Suite" finished-at="2019-08-15T01:58:41Z" duration-ms="147354">
+  <suite started-at="2019-08-19T05:27:59Z" name="Suite" finished-at="2019-08-19T05:29:18Z" duration-ms="79224">
     <groups>
     </groups>
-    <test started-at="2019-08-15T01:56:14Z" name="chrometesting" finished-at="2019-08-15T01:57:35Z" duration-ms="81404">
+    <test started-at="2019-08-19T05:27:59Z" name="chrometesting" finished-at="2019-08-19T05:28:42Z" duration-ms="42404">
       <class name="myTestyDemoTest.BootstrapFormTest">
-        <test-method signature="openUrl()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@3bf9ce3e]" started-at="2019-08-14T18:57:15Z" name="openUrl" finished-at="2019-08-14T18:57:16Z" duration-ms="1148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method signature="bFormTitleTest()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@3bf9ce3e]" started-at="2019-08-14T18:57:16Z" name="bFormTitleTest" finished-at="2019-08-14T18:57:35Z" duration-ms="18246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bFormTitleTest -->
-        <test-method signature="bFormPOAPFTest()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@3bf9ce3e]" started-at="2019-08-14T18:57:35Z" name="bFormPOAPFTest" finished-at="2019-08-14T18:57:35Z" duration-ms="508" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bFormPOAPFTest -->
-      </class> <!-- myTestyDemoTest.BootstrapFormTest -->
-      <class name="myTestyDemoTest.ExtJsFormTest">
-        <test-method is-config="true" signature="initWebDriver(java.lang.String)[pri:0, instance:myTestyDemoTest.ExtJsFormTest@7e5afaa6]" started-at="2019-08-14T18:56:14Z" name="initWebDriver" finished-at="2019-08-14T18:56:19Z" duration-ms="4927" status="PASS">
+        <test-method is-config="true" signature="initWebDriver(java.lang.String)[pri:0, instance:myTestyDemoTest.BootstrapFormTest@4bb33f74]" started-at="2019-08-18T22:27:59Z" name="initWebDriver" finished-at="2019-08-18T22:28:05Z" duration-ms="5285" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,69 +18,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method signature="openUrl()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@7e5afaa6]" started-at="2019-08-14T18:56:19Z" name="openUrl" finished-at="2019-08-14T18:56:20Z" duration-ms="1142" status="PASS">
+        <test-method signature="openUrl()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@4bb33f74]" started-at="2019-08-18T22:28:05Z" name="openUrl" finished-at="2019-08-18T22:28:06Z" duration-ms="1527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="conditionManagerTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@7e5afaa6]" started-at="2019-08-14T18:56:20Z" name="conditionManagerTest" finished-at="2019-08-14T18:56:38Z" duration-ms="17872" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- conditionManagerTest -->
-        <test-method signature="findElementsAfterTimeoutTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@7e5afaa6]" started-at="2019-08-14T18:56:38Z" name="findElementsAfterTimeoutTest" finished-at="2019-08-14T18:56:44Z" duration-ms="5903" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findElementsAfterTimeoutTest -->
-        <test-method signature="findElementsQuotesTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@7e5afaa6]" started-at="2019-08-14T18:56:44Z" name="findElementsQuotesTest" finished-at="2019-08-14T18:56:45Z" duration-ms="1567" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- findElementsQuotesTest -->
-        <test-method signature="radioGroupTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@7e5afaa6]" started-at="2019-08-14T18:56:45Z" name="radioGroupTest" finished-at="2019-08-14T18:56:56Z" duration-ms="10114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- radioGroupTest -->
-        <test-method signature="comboBoxTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@7e5afaa6]" started-at="2019-08-14T18:56:56Z" name="comboBoxTest" finished-at="2019-08-14T18:56:58Z" duration-ms="2122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- comboBoxTest -->
-        <test-method signature="multiSelectTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@7e5afaa6]" started-at="2019-08-14T18:56:58Z" name="multiSelectTest" finished-at="2019-08-14T18:56:59Z" duration-ms="1014" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multiSelectTest -->
-        <test-method signature="textAreaTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@7e5afaa6]" started-at="2019-08-14T18:56:59Z" name="textAreaTest" finished-at="2019-08-14T18:57:00Z" duration-ms="1167" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- textAreaTest -->
-        <test-method signature="textFieldTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@7e5afaa6]" started-at="2019-08-14T18:57:00Z" name="textFieldTest" finished-at="2019-08-14T18:57:01Z" duration-ms="1388" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- textFieldTest -->
-        <test-method signature="simpleFormTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@7e5afaa6]" started-at="2019-08-14T18:57:01Z" name="simpleFormTest" finished-at="2019-08-14T18:57:15Z" duration-ms="14007" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simpleFormTest -->
-        <test-method is-config="true" signature="tearDownTestMethod()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@7e5afaa6]" started-at="2019-08-14T18:57:35Z" name="tearDownTestMethod" finished-at="2019-08-14T18:57:35Z" duration-ms="264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestMethod -->
-      </class> <!-- myTestyDemoTest.ExtJsFormTest -->
-    </test> <!-- chrometesting -->
-    <test started-at="2019-08-15T01:57:36Z" name="FirefoxTest" finished-at="2019-08-15T01:58:41Z" duration-ms="65899">
-      <class name="myTestyDemoTest.BootstrapFormTest">
-        <test-method signature="openUrl()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@a530d0a]" started-at="2019-08-14T18:58:24Z" name="openUrl" finished-at="2019-08-14T18:58:25Z" duration-ms="423" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openUrl -->
-        <test-method signature="bFormTitleTest()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@a530d0a]" started-at="2019-08-14T18:58:25Z" name="bFormTitleTest" finished-at="2019-08-14T18:58:38Z" duration-ms="13527" status="PASS">
+        <test-method signature="bFormTitleTest()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@4bb33f74]" started-at="2019-08-18T22:28:06Z" name="bFormTitleTest" finished-at="2019-08-18T22:28:39Z" duration-ms="32814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bFormTitleTest -->
-        <test-method signature="bFormPOAPFTest()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@a530d0a]" started-at="2019-08-14T18:58:38Z" name="bFormPOAPFTest" finished-at="2019-08-14T18:58:39Z" duration-ms="715" status="PASS">
+        <test-method signature="bFormTableTest()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@4bb33f74]" started-at="2019-08-18T22:28:39Z" name="bFormTableTest" finished-at="2019-08-18T22:28:40Z" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bFormTableTest -->
+        <test-method signature="bFormPOAPFTest()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@4bb33f74]" started-at="2019-08-18T22:28:40Z" name="bFormPOAPFTest" finished-at="2019-08-18T22:28:42Z" duration-ms="1588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bFormPOAPFTest -->
       </class> <!-- myTestyDemoTest.BootstrapFormTest -->
-      <class name="myTestyDemoTest.ExtJsFormTest">
-        <test-method is-config="true" signature="initWebDriver(java.lang.String)[pri:0, instance:myTestyDemoTest.ExtJsFormTest@2f217633]" started-at="2019-08-14T18:57:36Z" name="initWebDriver" finished-at="2019-08-14T18:57:42Z" duration-ms="6750" status="PASS">
+    </test> <!-- chrometesting -->
+    <test started-at="2019-08-19T05:28:42Z" name="FirefoxTest" finished-at="2019-08-19T05:29:18Z" duration-ms="36724">
+      <class name="myTestyDemoTest.BootstrapFormTest">
+        <test-method is-config="true" signature="initWebDriver(java.lang.String)[pri:0, instance:myTestyDemoTest.BootstrapFormTest@56cdfb3b]" started-at="2019-08-18T22:28:42Z" name="initWebDriver" finished-at="2019-08-18T22:28:49Z" duration-ms="7408" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,51 +49,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method signature="openUrl()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@2f217633]" started-at="2019-08-14T18:57:42Z" name="openUrl" finished-at="2019-08-14T18:57:43Z" duration-ms="689" status="PASS">
+        <test-method signature="openUrl()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@56cdfb3b]" started-at="2019-08-18T22:28:49Z" name="openUrl" finished-at="2019-08-18T22:28:50Z" duration-ms="974" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="conditionManagerTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@2f217633]" started-at="2019-08-14T18:57:43Z" name="conditionManagerTest" finished-at="2019-08-14T18:57:54Z" duration-ms="10671" status="PASS">
+        <test-method signature="bFormTitleTest()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@56cdfb3b]" started-at="2019-08-18T22:28:50Z" name="bFormTitleTest" finished-at="2019-08-18T22:29:16Z" duration-ms="26006" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- conditionManagerTest -->
-        <test-method signature="findElementsAfterTimeoutTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@2f217633]" started-at="2019-08-14T18:57:54Z" name="findElementsAfterTimeoutTest" finished-at="2019-08-14T18:57:59Z" duration-ms="5848" status="PASS">
+        </test-method> <!-- bFormTitleTest -->
+        <test-method signature="bFormTableTest()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@56cdfb3b]" started-at="2019-08-18T22:29:16Z" name="bFormTableTest" finished-at="2019-08-18T22:29:17Z" duration-ms="676" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findElementsAfterTimeoutTest -->
-        <test-method signature="findElementsQuotesTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@2f217633]" started-at="2019-08-14T18:57:59Z" name="findElementsQuotesTest" finished-at="2019-08-14T18:58:02Z" duration-ms="2056" status="PASS">
+        </test-method> <!-- bFormTableTest -->
+        <test-method signature="bFormPOAPFTest()[pri:0, instance:myTestyDemoTest.BootstrapFormTest@56cdfb3b]" started-at="2019-08-18T22:29:17Z" name="bFormPOAPFTest" finished-at="2019-08-18T22:29:18Z" duration-ms="1657" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findElementsQuotesTest -->
-        <test-method signature="radioGroupTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@2f217633]" started-at="2019-08-14T18:58:02Z" name="radioGroupTest" finished-at="2019-08-14T18:58:12Z" duration-ms="10707" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- radioGroupTest -->
-        <test-method signature="comboBoxTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@2f217633]" started-at="2019-08-14T18:58:12Z" name="comboBoxTest" finished-at="2019-08-14T18:58:15Z" duration-ms="2747" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- comboBoxTest -->
-        <test-method signature="multiSelectTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@2f217633]" started-at="2019-08-14T18:58:15Z" name="multiSelectTest" finished-at="2019-08-14T18:58:17Z" duration-ms="1643" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multiSelectTest -->
-        <test-method signature="textAreaTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@2f217633]" started-at="2019-08-14T18:58:17Z" name="textAreaTest" finished-at="2019-08-14T18:58:18Z" duration-ms="1245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- textAreaTest -->
-        <test-method signature="textFieldTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@2f217633]" started-at="2019-08-14T18:58:18Z" name="textFieldTest" finished-at="2019-08-14T18:58:19Z" duration-ms="1377" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- textFieldTest -->
-        <test-method signature="simpleFormTest()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@2f217633]" started-at="2019-08-14T18:58:19Z" name="simpleFormTest" finished-at="2019-08-14T18:58:24Z" duration-ms="5155" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simpleFormTest -->
-        <test-method is-config="true" signature="tearDownTestMethod()[pri:0, instance:myTestyDemoTest.ExtJsFormTest@2f217633]" started-at="2019-08-14T18:58:39Z" name="tearDownTestMethod" finished-at="2019-08-14T18:58:41Z" duration-ms="2343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownTestMethod -->
-      </class> <!-- myTestyDemoTest.ExtJsFormTest -->
+        </test-method> <!-- bFormPOAPFTest -->
+      </class> <!-- myTestyDemoTest.BootstrapFormTest -->
     </test> <!-- FirefoxTest -->
   </suite> <!-- Suite -->
 </testng-results>

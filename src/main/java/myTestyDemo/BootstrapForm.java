@@ -16,6 +16,7 @@ import com.sdl.selenium.bootstrap.window.Window;
 import com.sdl.selenium.extjs3.button.UploadButton;
 import com.sdl.selenium.extjs3.panel.Panel;
 import com.sdl.selenium.web.SearchType;
+import com.sdl.selenium.web.form.TextField;
 import com.sdl.selenium.web.link.WebLink;
 import com.sdl.selenium.web.table.Table;
 
@@ -48,17 +49,21 @@ public class BootstrapForm extends Panel{
 	public Button disableBtnCls = new Button(form, "DisableBtnCls");
 	//Link
 	public WebLink link = new WebLink(form, "Link");
-	// Form Table
-	public Table table = new Table(form);
+	// Form Table 
+	public Form tableForm = new Form(null, "Form Table");
+	public Table formTable = new Table(tableForm);
 	// Page Object And Page Factory
 	public SelectPicker execute = new SelectPicker().setLabel("Execute");
 	public UneditableInput disabledExecute = new UneditableInput().setLabel("Execute");
 	public UneditableInput disabledEmail = new UneditableInput().setLabel("Email");
 	public UneditableInput disabledUserName = new UneditableInput().setLabel("User Name");
-	public Form pageObjectForm = new Form("Page Object And Page Factory").setChildNodes(disabledExecute,execute,disabledEmail,disabledUserName);
-	
-	public Button button = new Button(pageObjectForm,"Launch demo modal");
-	public  Window  demoModalWindow = new Window("Demo Modal Window");
+	public Form pageObjectForm = new Form("Page Object And Page Factory");
+	public Button demoButton = new Button().setContainer(pageObjectForm).setText("Launch demo modal");
+	public Window demoModalWindow = new Window("Modal title");
+	public TextField emailField = new TextField(demoModalWindow).setLabel("Email:");
+	public TextField nameField = new TextField(demoModalWindow).setLabel("User Name:");
+	public Button saveButton = new Button(demoModalWindow, "Save");
+	public Button closeButton = new Button(demoModalWindow, "Close");
 	
 	public BootstrapForm(){
 

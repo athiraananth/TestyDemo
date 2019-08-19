@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -39,12 +40,15 @@ public class TestFixtures {
 			System.setProperty("webdriver.gecko.driver", "F:\\Athira\\Selenium\\Selenium 3.141.59\\Driver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			WebDriverConfig.init(driver);
+			WebDriverConfig.setDownloadPath("C:\\Users\\kmana\\Downloads");
 		}
 	}
 
-	@AfterTest
-	public void tearDownTestMethod() {
-		driver.close();
-	}
+	/*
+	 * @AfterTest public void tearDownTestMethod() { if(driver!=null) {
+	 * driver.close();
+	 * 
+	 * } }
+	 */
 
 }
