@@ -5,14 +5,14 @@
 	<test name="chrometesting">
 		<parameter name="browser" value="Chrome" />
 		<classes>
-			<!-- <class name="myTestyDemoTest.ExtJsFormTest" /> -->
+			<class name="myTestyDemoTest.ExtJsFormTest" /> 
 			<class name="myTestyDemoTest.BootstrapFormTest"/>
 		</classes>
 	</test> <!-- Test -->
 	<test name="FirefoxTest">
 		<parameter name="browser" value="Firefox" />
 		<classes>
-			<!-- <class name="myTestyDemoTest.ExtJsFormTest" /> -->
+			<class name="myTestyDemoTest.ExtJsFormTest" />
 			<class name="myTestyDemoTest.BootstrapFormTest"/>
 		</classes>
 	</test>
